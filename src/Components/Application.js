@@ -5,7 +5,6 @@ const Application = () =>{
     return(
         <>
             <img style={styles.image} src={logoGrande} alt="DSASTRE" />
-            
         </>
     );
 }
