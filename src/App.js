@@ -1,13 +1,14 @@
-import React from 'react';
-import './App.css';
-import NavBar from './Components/NavBar.js'
-import Application from './Components/Application.js'
+import React from "react";
+import "./App.css";
+import NavBar from "./Components/NavBar/NavBar.js"
+import ItemListContainer from "./Components/ItemListContainer";
+import logoDsastre from "./assets/logoDsastre.jpg";
 
 function App() {
   return (
     <>
-      <NavBar></NavBar>
-      <Application></Application>
+      <NavBar />
+      <ItemListContainer greeting="Bienvenidos a DSASTRE"/>
     </>
   );
 }
